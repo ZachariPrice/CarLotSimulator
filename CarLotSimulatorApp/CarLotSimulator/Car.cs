@@ -11,6 +11,9 @@ namespace CarLotSimulator
 
         public Car()
         {
+            CarLot.numberOfCars++;
+            // ^^^^^^^^^^^^^^^^^
+            // ClassName.StaticNumber 
         }
 
         public Car(int year, 
